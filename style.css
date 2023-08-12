@@ -1,0 +1,32 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body {
+	font-family: Arial, sans-serif;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+	color: white;
+  }
+  h1{
+	margin-top: 10vh;
+  }
+.item{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	gap: 20px;
+	font-size: 30px;
+}
+input{
+padding: 8px;
+font-size: 30px;
+background: transparent;
+color: white;
+}
+  
